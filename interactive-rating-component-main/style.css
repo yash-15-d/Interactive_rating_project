@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces&family=Montserrat&family=Overpass&family=Poppins:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+body {
+  display: grid;
+  place-content: center;
+  background-color: hsl(216, 12%, 8%);
+  height: 100vh;
+}
+.main {
+  /* height: 300px; */
+  height: 100%;
+  width: 350px;
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 10px;
+  padding: 20px;
+}
+img {
+  padding: 8px 8px 10px 0px;
+}
+.ques {
+  font-family: "Overpass", sans-serif;
+  font-size: 15px;
+  color: white;
+  font-weight: 600;
+}
+p {
+  font-family: "Overpass", sans-serif;
+  font-size: 15px;
+  color: white;
+  padding-top: 12px;
+}
+.rating {
+  padding-top: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.btn {
+  font-family: "Overpass", sans-serif;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  cursor: pointer;
+  color: white;
+  background-color: hsl(215, 10%, 23%);
+  border: none;
+}
+.btn:focus {
+  transition: background-color 0.3s ease;
+  background-color: hsl(25, 97%, 53%);
+}
+.submit {
+  padding-top: 30px;
+}
+.submit .sbtn {
+  background-color: hsl(25, 97%, 53%);
+  font-family: "Overpass", sans-serif;
+  width: 375px;
+  height: 50px;
+  border-radius: 30px;
+  cursor: pointer;
+  color: white;
+  border: none;
+}
+.sbtn:focus{
+    color: hsl(25, 97%, 53%);
+    background-color: #fff;
+    transition: background-color 0.5s ease-in-out;
+}
+.hidden{
+    display: none;
+}
+.submitted_state{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.submit_img{
+    margin-top:20px;
+    height: 160px;
+    width: 160px;
+}
+#message{
+    margin-top: 18px;
+    font-family: "Overpass", sans-serif;
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(212, 21%, 12%);
+    padding: 18px;
+    border-radius: 30px;
+}
+strong{
+    font-size: 15px;
+    font-family: "Overpass", sans-serif;
+    color: white;
+    margin-top: 12px;
+}
+.submit_p{
+    color: gray;
+}

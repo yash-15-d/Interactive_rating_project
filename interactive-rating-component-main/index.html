@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Interactive rating component</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+  </head>
+  <body>
+    <section class="main">
+      <main class="active">
+        <div class="icon">
+          <img src="./images/icon-star.svg" alt="" />
+        </div>
+
+        <span class="ques"> How did we do? </span>
+
+        <p>
+          Please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
+        </p>
+
+        <div class="rating">
+          <button class="btn">1</button>
+          <button class="btn">2</button>
+          <button class="btn">3</button>
+          <button class="btn">4</button>
+          <button class="btn">5</button>
+        </div>
+
+        <div class="submit">
+          <button class="sbtn">SUBMIT</button>
+        </div>
+      </main>
+
+      <!-- submitted state  -->
+      <main class="submit_section hidden">
+        <div class="submitted_state">
+          <img
+            src="./images/illustration-thank-you.svg"
+            alt=""
+            class="submit_img"
+          />
+
+          <span id="message">
+            You selected <span id="rate"></span> out of 5
+          </span>
+
+          <strong>Thank You!</strong>
+          <p class="submit_p">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quia
+            hic eveniet enim dolorum labore. Mollitia dicta dignissimos
+            reprehenderit laboriosam!
+          </p>
+        </div>
+      </main>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
